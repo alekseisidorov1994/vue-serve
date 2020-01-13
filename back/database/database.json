@@ -1,0 +1,99 @@
+{
+   "postIdCounter": 11,
+   "userIdCounter": 2,
+   "commentIdCounter": 31,
+   "users": [
+      {
+         "id": 1,
+         "name": "Серьгей",
+         "surname": "Марковин",
+         "ava": "/images/01.png",
+         "login": "test1",
+         "password": "test1"
+      }
+   ],
+   "posts": [
+      {
+         "id": 1,
+         "image": "/images/man-in-forest.jpg",
+         "authorId": 1,
+         "tags": [
+            "forest",
+            "travel",
+            "journey",
+            "holiday"
+         ],
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, beatae."
+      },
+      {
+         "id": 2,
+         "image": "/images/girl-pc.jpg",
+         "authorId": 1,
+         "tags": [
+            "Fun",
+            "Game",
+            "Girl",
+            "Zadrot"
+         ],
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, beatae."
+      },
+      {
+         "id": 4,
+         "authorId": 1,
+         "tags": [
+            "Summer",
+            "Hat",
+            "Glasses",
+            "Fun"
+         ],
+         "description": "Girl and glasses",
+         "image": "/images/fly.jpg"
+      },
+      {
+         "id": 5,
+         "authorId": 1,
+         "tags": [
+            "Tooth",
+            "head",
+            "hat",
+            "filters"
+         ],
+         "description": "xaxaxaaaxax",
+         "image": "/images/second.jpg"
+      },
+      {
+         "id": 6,
+         "authorId": 1,
+         "tags": [
+            "Summer",
+            "Hat",
+            "Glasses",
+            "Fun"
+         ],
+         "description": "sadxadaa ",
+         "image": "/images/fly.jpg"
+      },
+      {
+         "id": 9,
+         "authorId": 1,
+         "tags": [],
+         "description": "a",
+         "image": "/images/8455a36cdd092d0e045419d066f9588e.jpg"
+      },
+      {
+         "id": 10,
+         "authorId": 1,
+         "tags": [],
+         "description": "фывфы",
+         "image": "/images/ac27ff1f2463539cf3b387fd95734083.jpg"
+      }
+   ],
+   "comments": [
+      {
+         "id": 28,
+         "authorId": 1,
+         "postId": 2,
+         "content": "3"
+      }
+   ]
+}

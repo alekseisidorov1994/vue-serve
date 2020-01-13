@@ -1,0 +1,42 @@
+{
+    "postIdCounter": 3,
+    "userIdCounter": 2,
+    "commentIdCounter": 2,
+
+    "users": [
+        {
+            "id": 1,
+            "name": "Серьгей",
+            "surname": "Марковин",
+            "ava": "/images/01.png",
+            "login": "test1",
+            "password": "test1"
+        }
+    ],
+
+    "posts": [
+        {
+            "id": 1,
+            "image": "/images/man-in-forest.jpg",
+            "authorId": 1,
+            "tags": ["forest", "travel", "journey", "holiday"],
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, beatae."
+        },
+        {
+            "id": 2,
+            "image": "/images/girl-pc.jpg",
+            "authorId": 1,
+            "tags": ["forest", "travel", "journey", "holiday"],
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, beatae."
+        }
+    ],
+
+    "comments": [
+        {
+            "id": 1,
+            "authorId": 1,
+            "postId": 1,
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, beatae."
+        }
+    ]
+}
