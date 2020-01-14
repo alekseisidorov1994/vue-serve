@@ -11,7 +11,8 @@ const app = new Koa
 
 app.keys = ['secret']
 
-app
+app 
+    .use(serve('../front/dist'))
     .use(serve('./static'))
     .use(bodyParser())
     .use(session({}, app))

@@ -83,8 +83,11 @@
       {
          "id": 10,
          "authorId": 1,
-         "tags": [],
-         "description": "фывфы",
+         "tags": [
+            "asd",
+            "asad"
+         ],
+         "description": "asdasd",
          "image": "/images/ac27ff1f2463539cf3b387fd95734083.jpg"
       }
    ],
