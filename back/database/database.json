@@ -1,7 +1,7 @@
 {
-   "postIdCounter": 11,
+   "postIdCounter": 12,
    "userIdCounter": 2,
-   "commentIdCounter": 31,
+   "commentIdCounter": 32,
    "users": [
       {
          "id": 1,
@@ -79,16 +79,6 @@
          "tags": [],
          "description": "a",
          "image": "/images/8455a36cdd092d0e045419d066f9588e.jpg"
-      },
-      {
-         "id": 10,
-         "authorId": 1,
-         "tags": [
-            "asd",
-            "asad"
-         ],
-         "description": "asdasd",
-         "image": "/images/ac27ff1f2463539cf3b387fd95734083.jpg"
       }
    ],
    "comments": [

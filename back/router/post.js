@@ -36,7 +36,7 @@ router.post('/create', imageUpload.single('image'), async (ctx, next) => {
     }
 
     const mimeType = path.extname(ctx.file.originalname)
-    await exec(`mv ${ctx.file.path} ${ctx.file.destination}${ctx.file.filename}${mimeType}`)
+    await exec(`MOVE ${ctx.file.path} ${ctx.file.destination}${ctx.file.filename}${mimeType}`)
 // MOVE
     const data = database.download()
     const post = {
